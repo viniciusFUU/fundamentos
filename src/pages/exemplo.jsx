@@ -2,9 +2,9 @@ import Cabecalho from '../components/Cabecalho'
 
 export default function Exemplo(){
     return (
-        <div>
-            <Cabecalho/>
-            <Cabecalho/>
-        </div>
+        <>
+            <Cabecalho titulo="Next.js & React"/>
+            <Cabecalho titulo="Aprenda React na prática."/>
+        </>
     )
 }
