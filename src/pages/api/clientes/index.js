@@ -5,8 +5,6 @@ export default function handler(req, res){
     } else {
         res.status(405).send()
     }
-
-    
 }
 
 function handleGet(req, res){
